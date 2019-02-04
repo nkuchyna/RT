@@ -1,0 +1,75 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>400</x>		<y>-700</y>			<z>600</z>
+		</position>
+		<direction>
+			<x>0.22</x> 	<y>0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>550</x>		<y>-450</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>550</x>		<y>-750</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<bump>bump/pupyrka.bmp</bump>
+		<text_scale>3</text_scale>
+	</object>
+	<object type="plane">
+		<position>
+			<x>0</x>		<y>0</y>			<z>-150</z>
+		</position>
+		<direction>
+			<x>0</x> 		<y>0</y> 			<z>1</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<texture>textures/vynnyk.bmp</texture>
+		<text_scale>3</text_scale>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>450</x>		<y>-660</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>1</y>			<z>0</z>
+		</direction>
+		<radius>80</radius>
+		<texture>textures/pure.bmp</texture>
+		<text_scale>0.2</text_scale>
+	</object>
+	<object type="cone">
+		<position>
+			<x>550</x>		<y>-630</y>			<z>250</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>-1</y>			<z>0</z>
+		</direction>
+		<radius>80</radius>
+		<color>
+			<r>0.2</r>		<g>0.2</g>			<b>0.2</b>
+		</color>
+		<angle>1</angle>
+		<height>115</height>
+		<bump>bump/plate.bmp</bump>
+	</object>
+	
+</scene>

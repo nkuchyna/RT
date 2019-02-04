@@ -1,0 +1,135 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>0</x>		<y>50</y>			<z>800</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>150</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>-150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>-150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>0</x>		<y>0</y>			<z>-150</z>
+		</position>
+		<direction>
+			<x>0</x> 		<y>0</y> 			<z>1</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>1</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>0</x>		<y>0</y>			<z>0</z>
+		</position>
+		<radius>50</radius>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>0</x>		<y>150</y>			<z>0</z>
+		</position>
+		<radius>30</radius>
+		<color>
+			<r>0</r>		<g>0.7</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>-100</x>		<y>-60</y>			<z>150</z>
+		</position>
+		<radius> 30	</radius>
+		<color>
+			<r>0.5</r>		<g>0.5</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="cone">
+		<position>
+			<x>60</x>		<y>-50</y>			<z>150</z>
+		</position>
+		<direction>
+			<x>0.5</x>		<y>1</y>			<z>0</z>
+		</direction>
+		<radius>20</radius>
+		<color>
+			<r>1</r>		<g>0</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>0</x>		<y>0</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>-1</y>			<z>-1</z>
+		</direction>
+		<radius>20</radius>
+		<color>
+			<r>0</r>		<g>0</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>-100</x>		<y>0</y>			<z>150</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>1</y>			<z>0</z>
+		</direction>
+		<radius>5</radius>
+		<color>
+			<r>0</r>		<g>0.5</g>			<b>0.5</b>
+		</color>
+		<angle>1</angle>
+	</object>
+</scene>

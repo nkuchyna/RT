@@ -1,0 +1,99 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>50</x>		<y>50</y>			<z>250</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>0</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>99</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>1</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>85</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>0</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+	</object>
+	<object type="heart">
+		<position>
+			<x>50</x>		<y>50</y>			<z>100</z>
+		</position>
+		<radius> 15	</radius>
+		<color>
+			<r>1</r>		<g>0.1</g>			<b>0.65</b>
+		</color>
+	</object>
+	<object type="heart">
+		<position>
+			<x>30</x>		<y>60</y>			<z>90</z>
+		</position>
+		<radius> 5	</radius>
+		<color>
+			<r>1</r>		<g>0.1</g>			<b>0.65</b>
+		</color>
+	</object>
+	<object type="heart">
+		<position>
+			<x>70</x>		<y>60</y>			<z>90</z>
+		</position>
+		<radius> 5	</radius>
+		<color>
+			<r>1</r>		<g>0.1</g>			<b>0.65</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>350</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>1</z>
+		</direction>
+	</object>
+</scene> 
+ 

@@ -1,0 +1,181 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>0</x>	<y>50</y>			<z>820</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>150</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x><y>-150</y><z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.73</r>		<g>0.58</g>			<b>0.49</b>
+		</color>
+		<material>glossy</material>
+	</object>
+	<object type="plane">
+		<position>
+			<x>-150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.65</r>		<g>0.74</g>			<b>0.59</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>-150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.56</r>		<g>0.26</g>			<b>0.10</b>
+		</color>
+	</object>
+		<object type="plane">
+		<position>
+			<x>0</x>		<y>0</y>			<z>-80</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y> 		<z>1</z>
+		</direction>
+		<color>
+			<r>0.95</r>		<g>0.93</g>			<b>0.91</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.95</r>		<g>0.58</g>			<b>0.35</b>
+		</color>
+	</object>
+	<object type="box">
+		<position>
+			<x>-50</x>		<y>-150</y>			<z>210</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>100</a>
+		<b>30</b>
+		<c>30</c>
+		<color>
+			<r>0.18</r>		<g>0.08</g>			<b>0.02</b>
+		</color>
+	</object>
+	<object type="box">
+		<position>
+			<x>-15</x>		<y>-10</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>30</a>
+		<b>30</b>
+		<c>30</c>
+		<s_radius>5</s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>0.56</r>		<g>0.15</g>			<b>0.02</b>
+		</color>
+	</object>
+	<object type="cylinder_closed">
+		<position>
+			<x>-25</x>		<y>-20</y>			<z>220</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>0</y>			<z>0</z>
+		</direction>
+		<radius> 10	</radius>
+		<color>
+			<r>0.6</r>		<g>0.43</g>			<b>0.33</b>
+		</color>
+		<height>50</height>
+	</object>
+	<object type="cone_closed">
+		<position>
+			<x>0</x>		<y>-70</y>			<z>220</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>-1</y>			<z>0</z>
+		</direction>
+		<radius> 10	</radius>
+		<color>
+			<r>0.32</r>		<g>0.6</g>			<b>0.15</b>
+		</color>
+		<angle>1</angle>
+		<height>50</height>
+	</object>
+	<object type="cylinder_closed">
+		<position>
+			<x>-15</x>		<y>-60</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>0</y>			<z>1</z>
+		</direction>
+		<radius> 10	</radius>
+		<color>
+			<r>0.93</r>		<g>0.42</g>			<b>0.08</b>
+		</color>
+		<height>50</height>
+	</object>
+	<object type="tunel">
+		<position>
+			<x>15</x>		<y>-40</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>-1</x>		<y>0</y>			<z>1</z>
+		</direction>
+		<s_radius> 5 </s_radius>
+		<radius> 10	</radius>
+		<color>
+			<r>0.15</r>		<g>0.42</g>			<b>0.11</b>
+		</color>
+		<height>50</height>
+	</object>
+	<object type="bocal">
+		<position>
+			<x>0</x>		<y>40.5</y>			<z>220</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>-1</y>			<z>0</z>
+		</direction>
+		<radius> 10	</radius>
+		<color>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</color>
+		<height>50</height>
+	</object>
+</scene>

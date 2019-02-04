@@ -1,0 +1,300 @@
+<?xml?>
+<scene>
+		<camera>
+		<position>
+			<x>0</x>		<y>30</y>			<z>600</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>-140</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>1</g>			<b>0</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>140</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+	</object>
+	
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>-100</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>1</z>
+		</direction>
+		<color>
+
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>81.6</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>-50</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+		<material>mirror</material>
+	</object>
+		<object type="box">
+		<position>
+			<x>-115</x>		<y>75</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<s_radius>5 </s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<height>100</height>
+		<refraction>0</refraction>
+	</object>
+	<object type="box">
+		<position>
+			<x>45</x>		<y>75</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<s_radius> 5 </s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<height>100</height>
+		<refraction>0</refraction>
+	</object>
+		<object type="box">
+		<position>
+			<x>-115</x>		<y>75</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<s_radius> 5 </s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<height>100</height>
+		<refraction>0</refraction>
+	</object>
+	
+	<object type="box">
+		<position>
+			<x>45</x>		<y>75</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<s_radius> 5 </s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<height>100</height>
+		<refraction>0</refraction>
+	</object>
+		<object type="box">
+		<position>
+			<x>-35</x>		<y>75</y>			<z>300</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<s_radius> 5 </s_radius>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<height>100</height>
+		<refraction>0</refraction>
+	</object>
+		<object type="sphere">
+			<cos_pow>100</cos_pow>
+		<position>
+			<x>-40</x>		<y>0</y>			<z>350</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>1.4</refraction>
+			<material>transparency</material>
+	</object>
+	<object type="sphere">
+			<cos_pow>150</cos_pow>
+		<position>
+			<x>-20</x>		<y>40</y>			<z>100</z>
+		</position>
+		<radius> 40	</radius>
+		<color>
+			<r>0</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>1</diffuse>
+		<refraction>0</refraction>
+		<material>glossy</material>
+	</object>
+	<object type="sphere">
+			<cos_pow>250</cos_pow>
+		<position>
+			<x>40</x>		<y>0</y>			<z>200</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+		<emission>
+			<r>0</r>		<g>0</g>			<b>0</b>
+		</emission>
+		<specular>0</specular>
+		<diffuse>0</diffuse>
+		<refraction>0</refraction>
+		<material>glossy</material>
+		<m_blur>
+		<x>1</x>		<y>0</y>			<z>0</z>
+	</m_blur>
+	</object>
+	<light>
+        <type>point</type>
+        <position>
+            <x>0</x>     <y>70</y>            <z>-10</z>
+        </position>
+        <direction>
+            <x>0</x>        <y>0</y>            <z>-1</z>
+        </direction>
+        <phi>1.2</phi>
+        <color>
+            <r>20</r>        <g>20</g>            <b>20</b>
+        </color>
+    </light>
+</scene>
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+

@@ -1,0 +1,106 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>200</x>		<y>1100</y>			<z>900</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<ambient>0.06</ambient>
+	<light>
+        <type>point</type>
+        <position>
+			<x>400</x>		<y>1300</y>			<z>81.6</z>
+		</position>
+        <color>
+            <r>35</r>        <g>35</g>            <b>35</b>
+        </color>
+    </light>
+	<object type="sphere">
+		<position>
+			<x>50</x>		<y>1900</y>			<z>-1200</z>
+		</position>
+		<radius>500</radius>
+		<pattern>1</pattern>
+		<bump>bump/stone1.bmp</bump>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>400</x>		<y>1000</y>			<z>81.6</z>
+		</position>
+		<radius>2000</radius>
+		<pattern>1</pattern>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>300</x>		<y>1200</y>			<z>81.6</z>
+		</position>
+		<radius>50</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<bump>bump/stone2.bmp</bump>
+		<material>glossy</material>
+		<cos_pow>246</cos_pow>
+	</object>
+	
+<object type="sphere">
+		<position>
+			<x>220</x>		<y>1300</y>			<z>81.6</z>
+		</position>
+		<radius>10</radius>
+		<color>
+			<r>1</r>		<g>0</g>			<b>1</b>
+		</color>
+		<pattern>-3</pattern>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+
+	<object type="sphere">
+		<position>
+			<x>100</x>		<y>1300</y>			<z>81.6</z>
+		</position>
+		<radius>70</radius>
+		<color>
+			<r>1</r>		<g>0</g>			<b>1</b>
+		</color>
+		<pattern>-3</pattern>
+	</object>
+	
+	<object type="disk">
+		<position>
+			<x>100</x>		<y>1300</y>			<z>81.6</z>
+		</position>
+		<radius>110</radius>
+		<s_radius>100</s_radius>
+		<color>
+			<r>0.4</r>		<g>0.2</g>			<b>0</b>
+		</color>
+		<direction>
+			<x>0.3</x> 	<y>1</y>		<z>0.4</z>
+		</direction>
+		<emission>
+			<r>0.4</r>		<g>0.1</g>			<b>0</b>
+		</emission>
+	</object>
+
+	<object type="plane">
+		<position>
+			<x>200</x>		<y>1000</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<texture>textures/stone1.bmp</texture>
+		<material>glossy</material>
+		<cos_pow>246</cos_pow>
+		<color>
+			<r>0.4</r>		<g>0.1</g>			<b>0.1</b>
+		</color>
+		<text_scale>8</text_scale>
+	</object>
+</scene>

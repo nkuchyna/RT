@@ -1,0 +1,118 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>50</x>		<y>50</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<light>
+        <type>spot</type>
+        <position>
+			<x>50</x>		<y>75</y>			<z>150</z>
+		</position>
+        <direction>
+            <x>0</x>        <y>-1</y>            <z>0</z>
+        </direction>
+        <phi>0.8</phi>
+        <color>
+            <r>50</r>        <g>50</g>            <b>50</b>
+        </color>
+    </light>
+	<object type="plane">
+		<position>
+			<x>0</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>-0.1</z>
+		</direction>
+		<texture>textures/tile1.bmp</texture>
+	</object>
+	<object type="plane">
+		<position>
+			<x>100</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>-0.1</z>
+		</direction>
+		<texture>textures/tile1.bmp</texture>
+	</object>
+	
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+		<texture>textures/tile1.bmp</texture>	
+	</object>
+	
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>75</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<emission>
+			<r>0.2</r>		<g>0.2</g>			<b>0.2</b>
+		</emission>
+		<pattern>4</pattern>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>0</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<texture>textures/wall2.bmp</texture>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>50</x>		<y>0</y>			<z>150</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>1</y>			<z>0</z>
+		</direction>
+		<radius>10</radius>
+		<height>25</height>
+		<texture>textures/wall4.bmp</texture>
+		<text_scale>2</text_scale>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>50</x>		<y>42</y>			<z>150</z>
+		</position>
+		<radius>10</radius>
+		<texture>textures/wall1.bmp</texture>
+		<text_scale>2</text_scale>
+	</object>
+	<object type="box">
+		<position>
+			<x>35</x>		<y>25</y>			<z>140</z>
+		</position>
+		<a>30</a>
+		<b>7</b>
+		<c>30</c>
+		<emission>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</emission>
+	</object>
+	<object type="cone">
+		<position>
+			<x>50</x>		<y>72</y>			<z>150</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>-1</y>			<z>0</z>
+		</direction>
+		<angle>1</angle>
+		<height>20</height>
+		<texture>textures/wall4.bmp</texture>
+		<text_scale>5</text_scale>
+	</object>
+</scene>

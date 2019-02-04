@@ -1,0 +1,261 @@
+<?xml?>
+<scene>
+		<camera>
+		<position>
+			<x>0</x>		<y>30</y>			<z>700</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>-140</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>1</g>			<b>0</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>140</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>0</g>			<b>0</b>
+		</color>
+	</object>
+	
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>-100</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>1</z>
+		</direction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>81.6</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>-50</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<material>mirror</material>
+	</object>
+		<object type="box">
+		<position>
+			<x>-115</x>		<y>75</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+	<object type="box">
+		<position>
+			<x>45</x>		<y>75</y>			<z>200</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+		<object type="box">
+		<position>
+			<x>-115</x>		<y>75</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+	
+	<object type="box">
+		<position>
+			<x>45</x>		<y>75</y>			<z>400</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+		<object type="box">
+		<position>
+			<x>-35</x>		<y>75</y>			<z>300</z>
+		</position>
+		<direction>
+			<x>1</x>		<y>1</y>			<z>1</z>
+		</direction>
+		<a>70</a>
+		<b>70</b>
+		<c>70</c>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1.5</r>		<g>1.5</g>			<b>1.5</b>
+		</emission>
+	</object>
+	<object type="sphere">
+		<cos_pow>25</cos_pow>
+		<position>
+			<x>-105</x>		<y>-30</y>			<z>230</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+		<object type="sphere">
+			<cos_pow>50</cos_pow>
+		<position>
+			<x>-90</x>		<y>-30</y>			<z>190</z>
+		</position>
+		<radius>20</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+
+		<object type="sphere">
+			<cos_pow>75</cos_pow>
+		<position>
+			<x>-70</x>		<y>-30</y>			<z>160</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>0.45</refraction>
+		<material>glossy</material>
+	</object>
+		<object type="sphere">
+			<cos_pow>100</cos_pow>
+		<position>
+			<x>-40</x>		<y>-30</y>			<z>120</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+
+		<object type="sphere">
+			<cos_pow>150</cos_pow>
+		<position>
+			<x>0</x>		<y>-30</y>			<z>100</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+		<object type="sphere">
+			<cos_pow>250</cos_pow>
+		<position>
+			<x>40</x>		<y>-30</y>			<z>120</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+	
+		<object type="sphere">
+			<cos_pow>400</cos_pow>
+		<position>
+			<x>70</x>		<y>-30</y>			<z>160</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+		<object type="sphere">
+			<cos_pow>650</cos_pow>
+		<position>
+			<x>90</x>		<y>-30</y>			<z>190</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+		<object type="sphere">
+			<cos_pow>100000</cos_pow>
+		<position>
+			<x>105</x>		<y>-30</y>			<z>230</z>
+		</position>
+		<radius> 20	</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>glossy</material>
+	</object>
+	<light>
+        <type>point</type>
+        <position>
+            <x>0</x>     <y>70</y>            <z>-10</z>
+        </position>
+        <direction>
+            <x>0</x>        <y>0</y>            <z>-1</z>
+        </direction>
+        <phi>1.2</phi>
+        <color>
+            <r>20</r>        <g>20</g>            <b>20</b>
+        </color>
+    </light>
+</scene>

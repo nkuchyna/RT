@@ -1,0 +1,52 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>300</x>		<y>300</y>			<z>900</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.05</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>350</x>		<y>350</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+	<color>
+		<r>0.9</r>		<g>0.9</g>			<b>0.9</b>
+	</color>
+	<texture>textures/wall1.bmp</texture>
+	<text_scale>4</text_scale>
+	</object>
+	<object type="plane">
+		<position>
+			<x>350</x>		<y>500</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<emission>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</emission>
+	</object>
+	<object type="tunel">
+		<position>
+			<x>340</x>		<y>300</y>			<z>500</z>
+		</position>
+		<direction>
+			<x>-1</x>		<y>0</y>			<z>1</z>
+		</direction>
+		<s_radius> 20 </s_radius>
+		<radius> 45	</radius>
+		<color>
+			<r>0.5</r>		<g>0.5</g>			<b>0.1</b>
+		</color>
+		<height>90</height>
+	</object>
+</scene>

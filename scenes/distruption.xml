@@ -1,0 +1,132 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>50</x>		<y>50</y>			<z>300</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<light>
+        <type>point</type>
+        <position>
+            <x>15</x>     <y>80</y>            <z>0</z>
+        </position>
+        <color>
+            <r>10</r>        <g>10</g>            <b>10</b>
+        </color>
+    </light>
+	<object type="plane">
+		<position>
+			<x>-1</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.5</r>		<g>1</g>			<b>1</b>
+		</color>
+	</object>
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>99</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.3</r>		<g>0.8</g>			<b>0.8</b>
+		</color>
+	</object>
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+		<color>
+			<r>0.2</r>		<g>0.6</g>			<b>0.6</b>
+		</color>
+		<pattern>5</pattern>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>55</x>		<y>38</y>			<z>150</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<radius> 10
+		</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<diffuse>0.9</diffuse>
+		<cos_pow>30</cos_pow>
+		<pattern>2</pattern>
+	</object>
+<object type="cylinder">
+		<position>
+			<x>20</x>		<y>30</y>			<z>90</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1</y>		<z>0</z>
+		</direction>
+		<radius>12</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<height>
+			20
+		</height>
+		<pattern>2</pattern>
+	</object>
+	<object type="cone">
+		<position>
+			<x>75</x>		<y>80</y>			<z>90</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1</y>		<z>0</z>
+		</direction>
+		<angle> 1
+		</angle>
+		<height>
+			25
+		</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<pattern>2</pattern>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>85</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+		<emission>
+			<r>0.8</r>		<g>0.8</g>			<b>0.8</b>
+		</emission>
+		<pattern>5</pattern>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>0</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.4</r>		<g>0.4</g>			<b>0.4</b>
+		</color>
+		<pattern>4</pattern>
+	</object>
+</scene>

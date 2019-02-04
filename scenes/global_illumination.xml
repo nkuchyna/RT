@@ -1,0 +1,166 @@
+<?xml?>
+<scene>
+	<ambient>0</ambient>
+	<camera>
+		<position>
+			<x>50</x>		<y>50</y>			<z>250</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.05</y>		<z>-1</z>
+		</direction>
+	</camera>
+
+	<object type="plane">
+		<position>
+			<x>10</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>0.6</g>			<b>0.9</b>
+		</color>
+	</object>
+
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>90</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>0.9</g>			<b>0.6</b>
+		</color>
+	</object>
+	
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>43</x>		<y>52</y>			<z>50</z>
+		</position>
+		<radius> 9
+		</radius>
+		<color>
+			<r>1</r>		<g>0.1</g>			<b>0.1</b>
+		</color>
+		<diffuse>0.8</diffuse>
+		<cos_pow>100000</cos_pow>
+		<material>dif+mir</material>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>70</x>		<y>60</y>			<z>30</z>
+		</position>
+		<radius> 17
+		</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<material>mirror</material>
+	</object>
+		<object type="sphere">
+		<position>
+			<x>67</x>		<y>21</y>			<z>85</z>
+		</position>
+		<radius> 11
+		</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+		<object type="sphere">
+		<position>
+			<x>50</x>		<y>13</y>			<z>55</z>
+		</position>
+		<radius> 3
+		</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>5</r>		<g>5</g>			<b>5</b>
+		</emission>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>25</x>		<y>25</y>			<z>45</z>
+		</position>
+		<radius> 12
+		</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>70</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+	</object>
+
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>10</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+	</object>
+	<object type="disk">
+		<position>
+			<x>50</x>		<y>69.9999</y>			<z>70</z>
+		</position>
+		<radius> 15
+		</radius>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+		<emission>
+			<r>3</r>		<g>3</g>			<b>3</b>
+		</emission>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>90</x>		<y>10</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>1</z>
+		</direction>
+		<radius>3</radius>
+		<color>
+			<r>0.75</r>		<g>0.75</g>			<b>0.75</b>
+		</color>
+		<emission>
+			<r>2</r>		<g>2</g>			<b>2</b>
+		</emission>
+		<height>120</height>
+	</object>	
+</scene>

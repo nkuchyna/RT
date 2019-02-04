@@ -1,0 +1,75 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>0</x>		<y>150</y>			<z>800</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.1</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>250</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>-50</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>-150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>0.5</g>			<b>0.5</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>0</x>		<y>0</y>			<z>-150</z>
+		</position>
+		<direction>
+			<x>0</x> 		<y>0</y> 			<z>1</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+	<object type="plane">
+		<position>
+			<x>150</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0</r>		<g>0.5</g>			<b>0.5</b>
+		</color>
+	</object>
+	<object type="*.obj">
+		<color>
+			<r>0.6</r>		<g>0.2</g>			<b>0.2</b>
+		</color>
+		<path>./ob/mobius.obj</path>
+	</object>
+</scene>

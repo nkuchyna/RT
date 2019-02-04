@@ -1,0 +1,208 @@
+<?xml?>
+<scene>
+	<ambient>0</ambient>
+	<camera>
+		<position>
+			<x>50</x>		<y>50</y>			<z>190</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-0.05</y>		<z>-1</z>
+		</direction>
+	</camera>
+
+	<object type="plane">
+		<position>
+			<x>-50</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>150</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+	
+	<object type="plane">
+		<material>diffuse</material>
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0	</y>		<z>1</z>
+		</direction>
+		<color>
+			<r>0.8</r>		<g>0.8</g>			<b>0.8</b>
+		</color>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>80</x>		<y>31</y>			<z>35</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1	</y>		<z>-0.4</z>
+		</direction>
+		<height>15</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>64</x>		<y>41</y>			<z>55</z>
+		</position>
+		<direction>
+			<x>0.4</x> 	<y>-1	</y>		<z>0.6</z>
+		</direction>
+		<height>20</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+	
+	<object type="bocal">
+		<position>
+			<x>70</x>		<y>41</y>			<z>45</z>
+		</position>
+		<direction>
+			<x>-0.4</x> 	<y>-1	</y>		<z>-1</z>
+		</direction>
+		<height>20</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>53</x>		<y>51</y>			<z>65</z>
+		</position>
+		<direction>
+			<x>-0.4</x> 	<y>-1	</y>		<z>-0.9</z>
+		</direction>
+		<height>30</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>42</x>		<y>51</y>			<z>50</z>
+		</position>
+		<direction>
+			<x>0.5</x> 	<y>-1	</y>		<z>1</z>
+		</direction>
+		<height>35</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>33</x>		<y>51</y>			<z>75</z>
+		</position>
+		<direction>
+			<x>0.1</x> 	<y>-0.1	</y>		<z>-1</z>
+		</direction>
+		<height>60</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+	
+	<object type="bocal">
+		<position>
+			<x>40</x>		<y>45</y>			<z>70</z>
+		</position>
+		<direction>
+			<x>0.3</x> 	<y>0.5	</y>		<z>-0.5</z>
+		</direction>
+		<height>38</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="bocal">
+		<position>
+			<x>25</x>		<y>60</y>			<z>75</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1	</y>		<z>-0.5</z>
+		</direction>
+		<height>35</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<refraction>1.5</refraction>
+		<height>20</height>
+		<material>transparency</material>
+	</object>
+
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>150</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</emission>
+	</object>
+
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>-50</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.7</r>		<g>0.7</g>			<b>0.7</b>
+		</color>
+	</object>
+	
+</scene>
+
+ 

@@ -1,0 +1,205 @@
+<?xml?>
+<scene>
+	<camera>
+		<position>
+			<x>200</x>		<y>95</y>			<z>310</z>
+		</position>
+		<direction>
+			<x>-0.65</x> 	<y>-0.3</y>		<z>-1</z>
+		</direction>
+	</camera>
+	<object type="plane">
+		<position>
+			<x>-1</x>		<y>40.8</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>-1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.3</r>		<g>0.05</g>			<b>0.05</b>
+		</color>
+	</object>
+	<object type="disk">
+		<position>
+			<x>0</x>		<y>50</y>			<z>70</z>
+		</position>
+		<direction>
+			<x>-1</x>		<y>0</y>			<z>0</z>
+		</direction>
+		<radius> 13	</radius>
+		<s_radius>10</s_radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</emission>
+	</object>
+	<object type="disk">
+		<position>
+			<x>0</x>		<y>80</y>			<z>100</z>
+		</position>
+		<direction>
+			<x>-1</x>		<y>0</y>			<z>0</z>
+		</direction>
+		<radius> 15	</radius>
+		<s_radius>10</s_radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</emission>
+	</object>
+	<object type="disk">
+		<position>
+			<x>0</x>		<y>70</y>			<z>20</z>
+		</position>
+		<direction>
+			<x>-1</x>		<y>0</y>			<z>0</z>
+		</direction>
+		<radius> 10	</radius>
+		<s_radius>8</s_radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</emission>
+	</object>
+	<object type="disk">
+		<position>
+			<x>50</x>		<y>70</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x>		<y>0</y>			<z>-1</z>
+		</direction>
+		<radius> 18	</radius>
+		<s_radius>15</s_radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<angle>1</angle>
+		<emission>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>40.8</y>			<z>0</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>0</y>		<z>1</z>
+		</direction>
+		<color>
+			<r>0.33</r>		<g>0.07</g>			<b>0.07</b>
+		</color>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>50</x>		<y>20</y>			<z>75</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<radius>20</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>0.8</b>
+		</color>
+		<material>glossy</material>
+		<cos_pow>50</cos_pow>
+		<pattern>-2</pattern>
+	</object>
+	<object type="sphere">
+		<position>
+			<x>70</x>		<y>4</y>			<z>130</z>
+		</position>
+		<direction>
+			<x>1</x> 	<y>0</y>		<z>0</z>
+		</direction>
+		<radius>4</radius>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>2</r>		<g>2</g>			<b>2</b>
+		</emission>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>100</x>		<y>0</y>			<z>75</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<radius>5</radius>
+		<height>25</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>0.5</r>		<g>0.5</g>			<b>0.5</b>
+		</emission>
+	</object>
+	<object type="cylinder">
+		<position>
+			<x>100</x>		<y>30</y>			<z>75</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1</y>		<z>0</z>
+		</direction>
+		<radius>15</radius>
+		<height>30</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>0.8</b>
+		</color>
+		<material>transparency</material>
+		<refraction>0.8</refraction>
+		<pattern>-2</pattern>
+	</object>
+	<object type="cone">
+		<position>
+			<x>30</x>		<y>30</y>			<z>120</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>-1</y>		<z>0</z>
+		</direction>
+		<angle>1</angle>
+		<height>30</height>
+		<color>
+			<r>1</r>		<g>1</g>			<b>0.8</b>
+		</color>
+		<material>mirror</material>
+		<pattern>-2</pattern>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>100</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>1</r>		<g>1</g>			<b>1</b>
+		</color>
+		<emission>
+			<r>0.3</r>		<g>0.3</g>			<b>0.3</b>
+		</emission>
+	</object>
+	<object type="plane">
+		<position>
+			<x>50</x>		<y>0</y>			<z>81.6</z>
+		</position>
+		<direction>
+			<x>0</x> 	<y>1</y>		<z>0</z>
+		</direction>
+		<color>
+			<r>0.3</r>		<g>0.3</g>			<b>0.3</b>
+		</color>
+		<material>glossy</material>
+		<cos_pow>256</cos_pow>
+	</object>
+</scene>
