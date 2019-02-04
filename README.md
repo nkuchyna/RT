@@ -27,26 +27,30 @@ Click to watch project video on YouTube:
 
 [![Watch project video](https://i.imgflip.com/2stgpg.gif)](https://www.youtube.com/watch?v=b13xR5DHvnI&t=7s)
 
+-----------------SCREENSHOTS-----------------
 <table style="width:100%">
-  <tr>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/glasses.png" data-canonical-src="sphere" width="400"/></td>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/color_light.png" data-canonical-src="cone" width="400"/></td> 
+     <tr>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/global_illumination.png" data-canonical-src="global_illumination" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/motion_blur.png" data-canonical-src="motion_blur" width="400"/></td> 
   </tr>
   <tr>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/different%20transparency.png" data-canonical-src="all_objects" width="400"/></td>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/glossy_spheres.png" data-canonical-src="hall" width="400"/></td> 
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/glasses.png" data-canonical-src="glasses" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/color_light.png" data-canonical-src="color_light" width="400"/></td> 
+  </tr>
+  <tr>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/different%20transparency.png" data-canonical-src="different_transparency" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/glossy_spheres.png" data-canonical-src="glossy_spheres" width="400"/></td> 
   </tr>
     <tr>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/tea%20pot.png" data-canonical-src="all_objects" width="400"/></td>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/planets.png" data-canonical-src="hall" width="400"/></td> 
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/tea%20pot.png" data-canonical-src="tea_pot" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/planets.png" data-canonical-src="planets" width="400"/></td> 
   </tr>
    <tr>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/negative.png" data-canonical-src="all_objects" width="400"/></td>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/torus.png" data-canonical-src="hall" width="400"/></td> 
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/negative.png" data-canonical-src="negative_objects" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/torus.png" data-canonical-src="torus" width="400"/></td> 
   </tr>
- 
    <tr>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/distruption.png" data-canonical-src="all_objects" width="400"/></td>
-    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/waved_norm.png" data-canonical-src="hall" width="400"/></td> 
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/distruption.png" data-canonical-src="distruption" width="400"/></td>
+    <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/waved_norm.png" data-canonical-src="waved_norm" width="400"/></td> 
   </tr>
 </table>
