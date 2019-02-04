@@ -27,7 +27,7 @@ Click to watch project video on YouTube:
 
 [![Watch project video](https://i.imgflip.com/2stgpg.gif)](https://www.youtube.com/watch?v=b13xR5DHvnI&t=7s)
 
------------------SCREENSHOTS-----------------
+----------------------------------SCREENSHOTS----------------------------------
 <table style="width:100%">
      <tr>
     <td><img src="https://github.com/nkuchyna/RT/blob/master/screenshots/global_illumination.png" data-canonical-src="global_illumination" width="400"/></td>
