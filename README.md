@@ -1,7 +1,7 @@
 # RT
 The final group project of the graphics branch | Path tracer on GPU coded in C, normed and functionnal
 ---------------------------------------------------------------------------------------------------------------
-- My first experience in the implementation of a large group project (after 4 month of learning C language). Our team Sperkhun, Vmartynu, Sbratche put a lot of effort and, as for me, got a pretty good result. My task was to implement texture mapping, cropping, simple and composed objects, color disruption, bump mapping, negative objects, menu and some other stuff.
+My first experience in the implementation of a large group project (after 4 month of learning C language). Our team Sperkhun, Vmartynu, Sbratche put a lot of effort and, as for me, got a pretty good result. My task was to implement texture mapping, cropping, simple and composed objects, color disruption, bump mapping, negative objects, menu and some other stuff.
 
 - SDL graphics library was used. According to the subject, we were allowed to use only some basic library features (keyboard and mouse events management, window creation, loading of the textures, coloring of the screen pixel).
 
