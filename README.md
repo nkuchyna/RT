@@ -8,7 +8,7 @@ My first experience in the implementation of a large group project (after 4 mont
 - The main goal was to create a program to generate images according to Raytracing protocol (XML format in our case).
 Those computer generated images will each represent a scene, as seen from a specific angle and position, defined by simple geometric objects, and each with its own lighting system.
 
-Usage: ./RT [file]
+    Usage: ./RT [file]
 
 BONUS PART
 - advanced light management;
