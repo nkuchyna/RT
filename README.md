@@ -9,6 +9,7 @@ My first experience in the implementation of a large group project (after 4 mont
 Those computer generated images will each represent a scene, as seen from a specific angle and position, defined by simple geometric objects, and each with its own lighting system.
 
     Usage: ./RT [file]
+    
 
 BONUS PART
 - advanced light management;
